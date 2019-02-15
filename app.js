@@ -1,5 +1,6 @@
-const Twit = require(‘twit’);
-const TwitterBot = require(‘node-twitterbot’).TwitterBot;
+const Twit = require('twit');
+const TwitterBot = require('node-twitterbot').TwitterBot;
+
 const emojiHaikuBot = new TwitterBot({
  consumer_key: process.env.TWITTER_CONSUMER_KEY,
  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
