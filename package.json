@@ -1,0 +1,15 @@
+{
+  "name": "emoji-haiku-bot",
+  "version": "1.0.0",
+  "description": "Emoji Haiku Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@zroyer",
+  "license": "ISC",
+  "dependencies": {
+    "node-twitterbot": "^0.2.2",
+    "twit": "^2.2.11"
+  }
+}
