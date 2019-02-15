@@ -24,7 +24,7 @@ async function getTranslationLine(array) {
 }
 
 function formatTranslation(str, find, replace) {
-  return str.replace(new RegExp(find, 'g'), replace).replace(/[0-9]/g, '');
+  return str.replace(new RegExp(find, 'g'), replace);
 }
 
 async function tweet(haiku) {
