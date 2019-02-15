@@ -4,10 +4,10 @@ var randomEmoji = require('random-emoji');
 var html2unicode = require("html2unicode");
 
 const emojiHaikuBot = new TwitterBot({
-  consumer_key: 'u1IbPHqvfJfvXvm8p2UW4aSw4',
-  consumer_secret: 'ReXcqRD8L0pxfAys0sWVSQ4sDUwGiX5HjdTmvhaypUO1wu9C11',
-  access_token: '1096447518458695680-sHifOiHVJj7n0wi1fyGkVPGdN6MCgQ',
-  access_token_secret: 'AXSf1V25RA4LyjR8gtvp6ac1aiaXbW18cgRQm1IfjgFHN'
+  consumer_key: process.env.TWITTER_CONSUMER_KEY,
+  consumer_secret: process.env.TWITTER_CONSUMER_SECRET,
+  access_token: process.env.TWITTER_ACCESS_TOKEN,
+  access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
 
 function getEmojiLine(array) {
