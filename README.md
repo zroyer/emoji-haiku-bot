@@ -1,3 +1,4 @@
-# Emoji Haiku Bot 🤖
-- A Twitter bot that randomly generates haikus made with emojis!
-- Node/Twitter/Heroku
+## Emoji Haiku Bot 🤖
+![Sample Tweet](http://i.imgur.com/XkNve6K.png)
+
+built with Node/Twitter/Heroku!
